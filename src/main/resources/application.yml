@@ -1,0 +1,11 @@
+server:
+  port: 8090
+spring:
+  graphql:
+    schema:
+      locations: classpath:graphql/
+    graphiql:
+      enabled: true
+logging:
+  level:
+    org.springframework.graphql: DEBUG
